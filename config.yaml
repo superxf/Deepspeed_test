@@ -1,0 +1,7 @@
+deepspeed_sparse_attention: True
+sparse_attention: True
+mode: 'fixed'
+deepspeed_transformer_kernel: False
+train_micro_batch_size_per_gpu: 1
+max_seq_length: 2048
+fp16_enabled : True
